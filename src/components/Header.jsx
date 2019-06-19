@@ -7,7 +7,7 @@ class Header extends React.Component {
         return (
             <div className="ui container">
             <div id="header" className="ui secondary menu menu-custom">
-                <Link to="/training" className="item">
+                <Link to="/training/homepage" className="item">
                     Home
                 </Link>
                 <Link to="/training/about" className="item">
