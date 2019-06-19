@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/training_site/static/css/main.b29120d4.chunk.css",
+    "main.js": "/training_site/static/js/main.fb5b7bae.chunk.js",
+    "main.js.map": "/training_site/static/js/main.fb5b7bae.chunk.js.map",
+    "runtime~main.js": "/training_site/static/js/runtime~main.165dcc59.js",
+    "runtime~main.js.map": "/training_site/static/js/runtime~main.165dcc59.js.map",
+    "static/js/2.94731e48.chunk.js": "/training_site/static/js/2.94731e48.chunk.js",
+    "static/js/2.94731e48.chunk.js.map": "/training_site/static/js/2.94731e48.chunk.js.map",
+    "index.html": "/training_site/index.html",
+    "precache-manifest.473b09a4b1c4a3afa9a2b08a2c4954c7.js": "/training_site/precache-manifest.473b09a4b1c4a3afa9a2b08a2c4954c7.js",
+    "service-worker.js": "/training_site/service-worker.js",
+    "static/css/main.b29120d4.chunk.css.map": "/training_site/static/css/main.b29120d4.chunk.css.map"
+  }
+}
