@@ -15,10 +15,10 @@ const HomePage = () => {
             <div class="ui equal width center aligned padded grid">
                 <div class="row" id="custom-grid">
                     <div class="column" id="custom-grid-column">
-                    <img class="ui fluid image" src="https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_960_720.jpg"/>
+                    <img class="ui fluid image" src="https://cdn.pixabay.com/photo/2016/11/22/22/24/adult-1850925_960_720.jpg" alt="replace later"/>
                     </div>
                     <div class="column" id="custom-grid-column">
-                    <img class="ui fluid image" src="https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_960_720.jpg"/>
+                    <img class="ui fluid image" src="https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726_960_720.jpg" alt="replace later"/>
                     </div>
                 </div>
                 <div class="row">

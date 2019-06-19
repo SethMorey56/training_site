@@ -11,10 +11,10 @@ import NewExercise from './components/NewExercise';
 
 const App = () => {
     return (
-            <Router history={history} basename={process.env.PUBLIC_URL}>
+            <Router history={history}>
                 <Header/>
                     <Switch>
-                    <Route path="/" exact component={HomePage}></Route>
+                    <Route path="/training/homepage" exact component={HomePage}></Route>
                     <Route path="/training/about" exact component={About}></Route>
                     <Route path="/training/exercises" exact component={Exercises}></Route>
                     <Route path="/style" exact component={Styling}></Route>
