@@ -12,6 +12,7 @@ import Contact from './components/Contact';
 import Plans from './components/Plans';
 import Blog from './components/Blog';
 import Login from './components/Login';
+import NotFound from './components/NotFound';
 
 const App = () => {
     return (
@@ -27,6 +28,7 @@ const App = () => {
                     <Route path="/training/plans" exact component={Plans}></Route>
                     <Route path="/training/blog" exact component={Blog}></Route>
                     <Route path="/training/login" exact component={Login}></Route>
+                    <Route path="*" exact component={NotFound}></Route>
                     </Switch>
             </Router>
     )
