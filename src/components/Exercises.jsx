@@ -25,7 +25,7 @@ class Exercises extends React.Component {
                     <div className="ui items">
                         <div className="item" key={exercise.id}>
                             <div className="ui small image">
-                                <img src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_960_720.jpg" alt="workout"/>
+                                <img src={exercise.example} alt="workout"/>
                             </div>
 
                             <div className="content">
@@ -56,7 +56,7 @@ class Exercises extends React.Component {
     }
 
     render() {
-        // console.log(this.props.exercises)
+        console.log(this.props.exercises)
         return (
             <div className="ui container">
                 <div className="ui celled list">{this.renderListProper()}</div>

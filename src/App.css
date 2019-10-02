@@ -1,7 +1,7 @@
 body {
-    background-color: #F7F9F9;
-    color: black;
-    /* font-family: 'Questrial', sans-serif; */
+  background-color: #f7f9f9;
+  color: black;
+  /* font-family: 'Questrial', sans-serif; */
 }
 
 /* .menu-custom {
@@ -14,252 +14,252 @@ body {
 } */
 
 #semantic-ui-list-override {
-    margin-top: 0em;
-    max-width: auto;
-    font-size: 1em;
-    line-height: 1.4285em;
-    color: #FFD700;
+  margin-top: 0em;
+  max-width: auto;
+  font-size: 1em;
+  line-height: 1.4285em;
+  color: #ffd700;
 }
 
 #hompage-ptag-styling-top {
-    border-bottom: solid 1px;
-    font-size: 5em;
+  border-bottom: solid 1px;
+  font-size: 5em;
 }
 
 #hompage-ptag-styling-bottom {
-    font-size: 5em;
-    vertical-align: top;
+  font-size: 5em;
+  vertical-align: top;
 }
 
 #icon-homepage-placement {
-    float: left;
+  float: left;
 }
 
 #header {
-    font-size: 1.2em;
-    /* font-family: 'Questrial', sans-serif; */
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-family: 'Rock Salt', cursive;
-    border-bottom: 2px solid #1B4079;
+  font-size: 1.2em;
+  /* font-family: 'Questrial', sans-serif; */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: "Rock Salt", cursive;
+  border-bottom: 2px solid #1b4079;
 }
 
 .ui[class*="center aligned"].segment {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #twitter-icon-color {
-    background-color: rgb(29, 161, 242);
+  background-color: rgb(29, 161, 242);
 }
 
-.ui.menu .item>i.icon {
-    margin: 0px;
+.ui.menu .item > i.icon {
+  margin: 0px;
 }
 
 .block-element {
-    /* background-color: green; */
-    text-align: center;
+  /* background-color: green; */
+  text-align: center;
 }
 
 .item-one {
-    display: inline-block;
-    /* background-color: pink; */
-    /* padding-right: 10em; */
-    /* padding-left: 10em; */
+  display: inline-block;
+  /* background-color: pink; */
+  /* padding-right: 10em; */
+  /* padding-left: 10em; */
 }
 
 .item-two {
-    display: inline-block;
-    /* background-color: orange; */
-    /* padding-left: 10em; */
-    /* padding-right: 10em; */
+  display: inline-block;
+  /* background-color: orange; */
+  /* padding-left: 10em; */
+  /* padding-right: 10em; */
 }
 
 .first-div {
-    /* border-top: .25em solid #78A1BB; */
+  /* border-top: .25em solid #78A1BB; */
 }
 
 #homepage-border {
-    border-top: .25em solid #1B4079;
+  border-top: 0.25em solid #1b4079;
 }
 
 .ui[class*="center aligned"].segment {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #custom-grid {
-    padding-top: 0px;
-    padding-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 #custom-grid-column {
-    padding-left: 0px;
-    padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .middle-text {
-    font-size: 5em;
+  font-size: 5em;
 }
 
 #custom-color {
-    color: #1B4079;
+  color: #1b4079;
 }
 
 .ui.segment {
-    background-color: #F7F9F9;
-    color: black;
-    border: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+  background-color: #f7f9f9;
+  color: black;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .ui.container {
-    font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
 }
 
-.ui.form .field>label {
-    color: black;
+.ui.form .field > label {
+  color: black;
 }
 
 .contact {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #homepage-text {
-    padding: 2.5%;
-    font-family: 'Yeseva One', cursive;
-    font-size: 1.5em;
-    /* color: white;
+  padding: 2.5%;
+  font-family: "Yeseva One", cursive;
+  font-size: 1.5em;
+  /* color: white;
     background-color: black; */
 }
 
 h1 {
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 2em;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 2em;
 }
 
 .about-text {
-    padding-top: 15px;
-    font-size: 1.25em;
+  padding-top: 15px;
+  font-size: 1.25em;
 }
 
 #contact-text {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 #plans-container {
-    padding-top: 15px;
-    font-size: 1.25em;
+  padding-top: 15px;
+  font-size: 1.25em;
 }
 
 #center {
-    text-align: center;
+  text-align: center;
 }
 
 #workout-heading {
-    font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 2em;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 2em;
 }
 
 .ui.secondary.menu .item {
-    text-decoration: none;
+  text-decoration: none;
 }
-.ui.secondary.menu .item:after {    
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #1B4079;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
+.ui.secondary.menu .item:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #1b4079;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
 }
-.ui.secondary.menu .item:hover:after { 
-    width: 100%; 
-    left: 0; 
+.ui.secondary.menu .item:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .ui.secondary.menu a.item:hover {
-    background: none;
+  background: none;
 }
 
 #instagram-icon-color {
-    background-image: linear-gradient(to right top, #fcaf45, #ff7d53, #f94c72, #d03097, #833ab4);
+  background-image: linear-gradient(to right top, #fcaf45, #ff7d53, #f94c72, #d03097, #833ab4);
 }
 
 .ui.basic.primary.button {
-    background-color: #1B4079;
+  background-color: #1b4079;
 }
 
 .ui.icon.header {
-    font-family: 'Rock Salt', cursive;
-    color: #1B4079;
+  font-family: "Rock Salt", cursive;
+  color: #1b4079;
 }
 
 .ui.inverted.primary.button {
-    font-family: 'Yeseva One', cursive;
+  font-family: "Yeseva One", cursive;
 }
 
 .ui.placeholder.segment {
-    background-color: none;
+  background-color: none;
 }
 
 #train {
-    font-family: 'Rock Salt', cursive;
-    font-size: 1.2em;
+  font-family: "Rock Salt", cursive;
+  font-size: 1.2em;
 }
 
 .background-login {
-    background-image: linear-gradient(to right bottom, #6435c9, #453eb9, #2b42a6, #1b4290, #1b4079);
+  background-image: linear-gradient(to right bottom, #6435c9, #453eb9, #2b42a6, #1b4290, #1b4079);
 }
 
 .custom-background {
-    height: 100vh;
-    width: inherit;
+  height: 100vh;
+  width: inherit;
 }
 
 .ui.inverted.violet.button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 h2 {
-    font-family: 'Rock Salt', cursive;
-    font-size: .5em;
+  font-family: "Rock Salt", cursive;
+  font-size: 0.5em;
 }
 
 #login-form-group {
-    padding-bottom: 15px;
-    padding-top: 15px;
-    color: whitesmoke;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: whitesmoke;
 }
 
-.ui.form .field>label {
-    color: white;
+.ui.form .field > label {
+  color: #1b4079;
 }
 
 .background-me {
-    background-image: linear-gradient(to left top, #6435c9, #9b009c, #af006e, #af0044, #a20021);
-    height: 100vh;
+  background-image: linear-gradient(to left top, #6435c9, #9b009c, #af006e, #af0044, #a20021);
+  height: 100vh;
 }
 
 .ui[class*="very padded"].segment {
-    padding: 1em 3em 1em 3em;
+  padding: 1em 3em 1em 3em;
 }
 
 #input-style {
-    border-bottom: solid violet;
-    border-width: thin;
-    position: relative;
-    padding-top: 10px;
+  border-bottom: solid violet;
+  border-width: thin;
+  position: relative;
+  padding-top: 10px;
 }
 
 .ui.form .wide.field .ui.input input::placeholder {
-    color: rgb(27,64,121, .5)
+  color: rgb(27, 64, 121, 0.5);
 }
 
 .ui.form input:not([type]):focus {
-    border-color: #6435C9;
+  border-color: #6435c9;
 }
