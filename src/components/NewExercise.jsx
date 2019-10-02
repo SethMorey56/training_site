@@ -36,7 +36,7 @@ class NewExercise extends React.Component {
     render () {
         // console.log("render props:", this.props)
 
-        return(
+        return (
             <div className="ui container">
             <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
                 <div className="fields">

@@ -39,3 +39,9 @@ export const fetchUsers = () => async dispatch => {
 
   dispatch({ type: FETCH_PLACEHOLDER_USER, payload: response.data });
 };
+
+// posting to create user route
+
+export const createClient = (formValues) => async dispatch => {
+  training.post("/newClient", formValues)
+}

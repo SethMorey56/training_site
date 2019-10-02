@@ -15,6 +15,7 @@ import Login from "./components/Login";
 import NotFound from "./components/NotFound";
 import Week from "./components/Week";
 import Trainer from "./components/Trainer";
+import CreateClient from "./components/CreateClient";
 
 const App = () => {
   return (
@@ -31,8 +32,10 @@ const App = () => {
         <Route path="/training/blog" exact component={Blog}></Route>
         <Route path="/training/login" exact component={Login}></Route>
         <Route path="/training/week" exact component={Week}></Route>
+        <Route path="/training/createClient" exact component={CreateClient}></Route>
         <Route path="/trainer/" exact component={Trainer}></Route>
         <Route path="*" exact component={NotFound}></Route>
+        
       </Switch>
     </Router>
   );
