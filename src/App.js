@@ -14,8 +14,9 @@ import Blog from "./components/Blog";
 import Login from "./components/Login";
 import NotFound from "./components/NotFound";
 import Week from "./components/Week";
-import Trainer from "./components/Trainer";
+import Trainer from "./components/trainer/Trainer";
 import CreateClient from "./components/CreateClient";
+import ClientProfile from "./components/trainer/ClientProfile";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/training/week" exact component={Week}></Route>
         <Route path="/training/createClient" exact component={CreateClient}></Route>
         <Route path="/trainer/" exact component={Trainer}></Route>
+        <Route path="/trainer/clientProfile" exact component={ClientProfile}></Route>
         <Route path="*" exact component={NotFound}></Route>
         
       </Switch>

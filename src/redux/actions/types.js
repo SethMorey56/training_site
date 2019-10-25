@@ -6,6 +6,5 @@ export const SIGN_OUT = "SIGN_OUT";
 // json placeholder types
 export const FETCH_PLACEHOLDER_USER = "PLACEHOLDER_USER";
 
-// create user
-
+// USER REDUCERS
 export const CREATE_USER = "CREATE_USER";

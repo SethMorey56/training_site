@@ -1,11 +1,11 @@
 import React from 'react';
-import CreateAccount from './CreateAccount';
+import CreateClient from './CreateClient';
 
 class Login extends React.Component {
     render () {
         return (
             <div className="LoginComp">
-                <CreateAccount/>
+                <CreateClient/>
             </div>
         )
     }

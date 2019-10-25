@@ -263,3 +263,12 @@ h2 {
 .ui.form input:not([type]):focus {
   border-color: #6435c9;
 }
+
+#client-profile-display {
+  border-bottom: solid 1px;
+  margin-right: 10px;
+}
+
+#client-grid {
+  border: 1px solid;
+}

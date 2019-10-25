@@ -2,7 +2,7 @@ import React from "react";
 
 class ClientCard extends React.Component {
   render(props) {
-    console.log(this.props.user);
+    console.log(this.props);
     return (
       <div className="card">
         <div className="image">

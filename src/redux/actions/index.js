@@ -1,7 +1,7 @@
 import training from "../../apis/training";
 import jsonPlaceholder from "../../apis/jsonPlaceholder";
 // import history from '../../history';
-import { FETCH_EXERCISES } from "./types";
+import { FETCH_EXERCISES, FETCH_USERS } from "./types";
 import { SIGN_IN, SIGN_OUT } from "./types";
 import { FETCH_PLACEHOLDER_USER } from "./types";
 

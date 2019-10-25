@@ -8,5 +8,5 @@ export default combineReducers({
   exercises: exercisesReducer,
   form: formReducer,
   auth: authReducer,
-  users: usersPlaceholderReducer
+  users: usersPlaceholderReducer,
 });

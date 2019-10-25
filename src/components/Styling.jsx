@@ -46,11 +46,6 @@ class Styling extends React.Component {
                     </div>
                 </div>
 
-                {/* <label>Name</label>
-                <div class="ui transparent input massive" id="input-style">
-                    <input type="text" placeholder="Search..."/>
-                </div> */}
-
                 <div class="ui form">
                     <div class="fields">
 
@@ -77,6 +72,85 @@ class Styling extends React.Component {
 
                     </div>
                 </div>
+
+                <div class="ui middle aligned divided list">
+                    <div class="item">
+                        <div class="right floated content">
+                        <div class="ui button">Add</div>
+                        </div>
+                        <img class="ui avatar image" src="https://cdn.pixabay.com/photo/2015/09/02/12/58/woman-918788__480.jpg"/>
+                        <div class="content">
+                        Lena
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="right floated content">
+                        <div class="ui button">Add</div>
+                        </div>
+                        <img class="ui avatar image" src="https://cdn.pixabay.com/photo/2015/09/02/12/58/woman-918788__480.jpg"/>
+                        <div class="content">
+                        Lindsay
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="right floated content">
+                        <div class="ui button">Add</div>
+                        </div>
+                        <img class="ui avatar image" src="https://cdn.pixabay.com/photo/2015/09/02/12/58/woman-918788__480.jpg"/>
+                        <div class="content">
+                        Mark
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="right floated content">
+                        <div class="ui button">Add</div>
+                        </div>
+                        <img class="ui avatar image" src="https://cdn.pixabay.com/photo/2015/09/02/12/58/woman-918788__480.jpg"/>
+                        <div class="content">
+                        Molly
+                        </div>
+                    </div>
+                </div>
+
+                <table class="ui five column table">
+                    <thead>
+                        <tr><th>Name</th>
+                        <th>Status</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Notes</th>
+                    </tr></thead>
+                    <tbody>
+                        <tr>
+                        <td>John</td>
+                        <td>Approved</td>
+                        <td>22</td>
+                        <td>Male</td>
+                        <td>None</td>
+                        </tr>
+                        <tr>
+                        <td>Jamie</td>
+                        <td>Approved</td>
+                        <td>32</td>
+                        <td>Male</td>
+                        <td>Requires call</td>
+                        </tr>
+                        <tr>
+                        <td>Jill</td>
+                        <td>Denied</td>
+                        <td>22</td>
+                        <td>Female</td>
+                        <td>None</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><th>3 People</th>
+                        <th>2 Approved</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr></tfoot>
+                </table>
 
             </div>
         )

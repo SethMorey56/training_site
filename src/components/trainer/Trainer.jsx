@@ -1,5 +1,5 @@
 import React from "react";
-import Clients from "./Clients";
+import Users from "./Users";
 
 class Trainer extends React.Component {
   render() {
@@ -39,7 +39,7 @@ class Trainer extends React.Component {
             placerat eleifend leo.
           </p>
         </div>
-        <Clients />
+        <Users />
       </div>
     );
   }

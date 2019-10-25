@@ -1,9 +1,9 @@
 import React from "react";
 import ClientCard from "./ClientCard";
 import { connect } from "react-redux";
-import { fetchUsers } from "../redux/actions";
+import { fetchUsers } from "../../redux/actions";
 
-class Clients extends React.Component {
+class Users extends React.Component {
   componentDidMount() {
     this.props.fetchUsers();
   }
@@ -29,4 +29,4 @@ const mapStateToProps = state => {
 export default connect(
   mapStateToProps,
   { fetchUsers }
-)(Clients);
+)(Users);
