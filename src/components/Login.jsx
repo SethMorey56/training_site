@@ -1,11 +1,13 @@
 import React from 'react';
 import CreateClient from './CreateClient';
+import LoginClient from './LoginClient';
 
 class Login extends React.Component {
-    render () {
+    render() {
         return (
             <div className="LoginComp">
-                <CreateClient/>
+                <CreateClient />
+                <LoginClient />
             </div>
         )
     }
